@@ -1,0 +1,6 @@
+pandas~=1.5.2
+openpyxl
+tweepy~=4.12.1
+google-cloud-bigquery
+apache-airflow
+google-cloud-storage

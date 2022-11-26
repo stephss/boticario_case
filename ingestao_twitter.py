@@ -11,6 +11,7 @@ default_dag_args = {
 }
 
 def initialize_twitter_api():
+    # disclaimer: this token has been revoked :D its here only for example
     client = tweepy.Client(bearer_token='AAAAAAAAAAAAAAAAAAAAAEvyjgEAAAAA6rtwgSkmnlrFFzrlseNt6N8OQGU%3DwGV9EMjKWbJjwyW1sGwKC5jfZAB6UaBAFT8oRvJ5VXLxMz2wC0')
     return client
 
